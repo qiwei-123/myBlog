@@ -1,0 +1,23 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "个人博客（vuepress搭建）",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiwei-123/myBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiwei-123/myBlog/issues"
+  },
+  "homepage": "https://github.com/qiwei-123/myBlog#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
