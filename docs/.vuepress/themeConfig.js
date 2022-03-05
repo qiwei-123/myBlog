@@ -15,7 +15,6 @@ const themeConfig = {
         },
         {
             text: 'Others',
-            ariaLabel: 'Menu',
             items: [
                 { text: '与我联系', link: '/Other/contact/' },
             ]
@@ -51,12 +50,13 @@ const themeConfig = {
             path: '/Blog/',
             sidebarDepth: 1,
             children: [
-                ['/Blog/blog1/','blog1']
+                ['/Blog/blog1/','blog1'],
+                ['/Blog/blog2/','blog2'],
+                ['/Blog/blog3/','blog3'],
             ]
         },
     ],
     searchMaxSuggestions: 10,
-    
 };
 
 module.exports = themeConfig;
