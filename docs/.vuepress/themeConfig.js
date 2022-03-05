@@ -22,7 +22,7 @@ const themeConfig = {
         {
             text: 'Github',
             link: 'https://github.com/qiwei-123?tab=repositories',
-            target:'_blank'
+            target: '_blank'
         }
     ],
     markdown: {
@@ -34,7 +34,7 @@ const themeConfig = {
             path: '/Resume/myResume/',
             sidebarDepth: 1,
             children: [
-                ['/Resume/myResume/','个人简历']
+                ['/Resume/myResume/', '个人简历']
             ]
         },
         {
@@ -42,7 +42,7 @@ const themeConfig = {
             path: '/Projects/project1/',
             sidebarDepth: 1,
             children: [
-                ['/Projects/project1/','project1']
+                ['/Projects/project1/', 'project1']
             ]
         },
         {
@@ -50,11 +50,22 @@ const themeConfig = {
             path: '/Blog/',
             sidebarDepth: 1,
             children: [
-                ['/Blog/blog1/','blog1'],
-                ['/Blog/blog2/','blog2'],
-                ['/Blog/blog3/','blog3'],
+                ['/Blog/blog1/', 'blog1'],
+                ['/Blog/HTML/', 'HTML'],
+                ['/Blog/blog3/', 'blog3'],
             ]
         },
+        {
+            title: 'NBA',
+            path: '/NBA/',
+            sidebarDepth: 1,
+            children: [
+                ['/NBA/Kobe/', 'Kobe'],
+                ['/NBA/Curry/', 'Curry'],
+                ['/NBA/Jordan/', 'Jordan'],
+            ]
+        },
+
     ],
     searchMaxSuggestions: 10,
 };
