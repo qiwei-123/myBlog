@@ -39,10 +39,11 @@ const themeConfig = {
         },
         {
             title: 'Projects',
-            path: '/Projects/project1/',
+            path: '/Projects/',
             sidebarDepth: 1,
             children: [
-                ['/Projects/project1/', 'project1']
+                ['/Projects/project1/', 'project1'],
+                ['/Projects/project2/', 'project2'],
             ]
         },
         {
@@ -51,7 +52,7 @@ const themeConfig = {
             sidebarDepth: 1,
             children: [
                 ['/Blog/blog1/', 'blog1'],
-                ['/Blog/HTML/', 'HTML'],
+                ['/Blog/blog2/', 'blog2'],
                 ['/Blog/blog3/', 'blog3'],
             ]
         },
