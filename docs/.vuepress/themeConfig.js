@@ -42,8 +42,8 @@ const themeConfig = {
             path: '/Projects/',
             sidebarDepth: 1,
             children: [
-                ['/Projects/project1/', 'project1'],
-                ['/Projects/project2/', 'project2'],
+                ['/Projects/project1/', '校园社交网站'],
+                ['/Projects/project2/', '购物街app'],
             ]
         },
         {
