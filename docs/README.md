@@ -1,1 +1,3 @@
-docs...
+```javascript
+Not everyone can win
+```
